@@ -12,57 +12,80 @@
 }
 
 /* Navigation bar styling */
-.navbar {
-    background-color: #17093f;
-    overflow: hidden;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    font-size: 22px;
-}
-
-.menu {
-    list-style-type: none;
+nav {
+    background-color: #070e64;
+    padding: 10px 20px;
+    align-items: center;
+    font-size: 24px;
     display: flex;
-    justify-content: center;
+    justify-content: center;  /* Center the nav items */
+    align-items: center;      /* Align items vertically */
+    position: sticky;         /* Keep it at the top of the page */
+    top: 0;                   /* Ensure it stays at the top */
+    width: 100%;              /* Ensure it spans the entire width of the page */
+    z-index: 1000;            /* Ensure it's on top of other content */
 }
 
-.menu > li {
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav-links li {
+    position: relative;
+    padding: 10px 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+}
+
+.nav-links a:hover {
+    background-color: #4017d1;
+    padding: 10px 15px;
+}
+
+/* Dropdown menu styling */
+.dropdown {
     position: relative;
 }
 
-.menu a {
+.dropbtn {
+    cursor: pointer;
+    padding: 10px 15px;
     color: white;
-    padding: 14px 20px;
-    text-decoration: none;
-    display: block;
-}
-
-.menu a:hover {
-    background-color: #3a21ca;
+    background-color: transparent;
+    border: none;
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #444;
+    background-color: #3b08f5;
     min-width: 160px;
     z-index: 1;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
+    border-radius: 5px;
 }
 
 .dropdown-content a {
-    color: white;
     padding: 12px 16px;
-    text-decoration: none;
-    display: block;
 }
 
 .dropdown-content a:hover {
-    background-color: #666;
+    background-color: #1013bb;
+    align-items: center;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
 /* Background image for sections */
