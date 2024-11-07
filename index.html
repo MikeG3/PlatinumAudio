@@ -1,159 +1,152 @@
-/* Reset some default styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Platinum Audio</title>
+    <link rel="stylesheet" href="styles.css">
 
-/* Header image styling */
-header {
-    background-color: black;
-}
+     <!-- Meta Description -->
+     <meta name="description" content="Expert repair and upgrade services for vintage audio electronics, specializing in brands like Marantz, Sansui, Pioneer, and McIntosh. Located in Montreal.">
 
-.header-image {
-    width: 100%;
-    height: 20vh;
-}
+     <!-- Meta Keywords -->
+     <meta name="keywords" content="Marantz, Sansui, Pioneer, McIntosh, Repair, Vintage Audio, Montreal, electronics, electronic repair, upgrade, refurbishment, audio restoration, amplifier repair, vintage stereo">
+ 
+     <!-- Meta Author -->
+     <meta name="author" content="Your Name or Business Name">
+ 
+     <!-- Open Graph tags for social media preview -->
+     <meta property="og:title" content="Vintage Audio Repair Services - Montreal">
+     <meta property="og:description" content="Professional repairs and upgrades for vintage audio equipment, including Marantz, Sansui, Pioneer, and McIntosh models.">
+     <meta property="og:image" content="URL-to-your-image.jpg"> <!-- Link to a relevant image -->
+     <meta property="og:url" content="https://yourwebsite.com">
+     <meta property="og:type" content="website">
+ 
+    
+</head>
+<body>
+    <!-- Header with top image -->
+    <header>
 
-/* Navigation bar styling */
-nav {
-    background-color: #000000;
-    padding: 10px 20px;
-    align-items: center;
-    font-size: 24px;
-    display: flex;
-    justify-content: center;  /* Center the nav items */
-    align-items: center;      /* Align items vertically */
-    position: sticky;         /* Keep it at the top of the page */
-    top: 0;                   /* Ensure it stays at the top */
-    width: 100%;              /* Ensure it spans the entire width of the page */
-    z-index: 1000;            /* Ensure it's on top of other content */
-}
+        <!-- Banner image -->
+        <img src="images/marantz2238.jpg" alt="Header Image" class="header-image" width="100%" height="20vh">
+    
+    </header>
+        
+    <!-- Menu Bar -->
+    <nav>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown">
+                <a href="#rates" class="dropbtn">Services</a>
+                <div class="dropdown-content">
+                    <a href="#rates">Rates</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">About</a>
+                <div class="dropdown-content">
+                    <a href="#home">Introduction</a>
+                    <a href="#sample-projects">Sample Projects</a>
+                    <a href="https://mikeg3.github.io/Resume-V2.0/index.html">About Owner</a>
+                </div>
+            </li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Language</a>
+                <div class="dropdown-content">
+                    <a href="index.html">English</a>
+                    <a href="indexFR.html">French</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+   
+    <!-- Main content with sections -->
+    <main>
 
-.nav-links {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
+        <!-- Header -->
+        <section id="home">
+            <h1>Welcome to Platinum Audio</h1>
+            <br>
+            <h2>Platinum Audio is a Professional Audio and Electronics Lab, we provides audio restoration, repair and upgrade services</h2>
+            <br>
+            <p>Experience working on hundreds of pieces of audio equipment, including most Midfi / Hifi brands:</p> 
+            <p>Pioneer, Marantz, Sansui, Mcintosh, Luxman, Quad, Accuphase, NAD, Fisher, Rotel, Sony, Harman Kardon, Rotel, Telefunken, JVC, Toshiba, Technics, Panasonic, Hitachi, Phillips.. </p>
+        </section>
+        
+        <!-- Services -->
+        <section id="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Troubleshooting and repair of audio equipment</li>
+                <li>Power and Distortion Analysis of Audio Amplifiers and Sources</li>
+                <li>Component replacement & Modern component integration</li>
+                <li>Light and LED Replacement and LED conversion</li>
+                <li>Calibrations (Bias, DC offset, Voltage/Current supplies…)</li>
+                <li>Recaps: capacitor replacement and retrofitting with modern audio-grade capacitors</li>
+                <li>Transistor, Opamps, and semiconductor upgrades</li>
+                <li>Cleaning Controls: Volume, tone and balance pots, switches</li>
+                <li>Faceplate and accessory polishing</li>
+                <li>Soldering and circuit board inspection and repair</li>
+                <li>Frequency/channel linearity tests</li>
+            </ul>
 
-.nav-links li {
-    position: relative;
-    padding: 10px 15px;
-}
+        </section>
 
-.nav-links a {
-    color: white;
-    text-decoration: none;
-    display: block;
-    padding: 10px 15px;
-}
+        <!-- About -->
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Platinum Audio was founded in 2014 by Michael Garner, a passionate engineer, musician and multi-disciplinary technician.</p>
+            <br>
+            <p id="story">From Childhood Curiosity to Professional Expertise
+                <br><br>
+                Platinum Audio was founded in 2014 by Michael Garner, a passionate engineer, musician, and multi-disciplinary technician with a lifelong love for sound and electronics. Michael’s journey into audio began with a simple clock radio as a child, tuning into Montreal's oldies station every night. That early fascination with music deepened as he explored the rich sounds of his father's vintage silver-faced receiver and powerful Acoustic Research speakers, which filled their home with the symphonies of Beethoven. These early experiences shaped Michael’s appreciation for both the artistry and engineering behind high-fidelity audio systems.
+                <br>
+                As a teenager, Michael’s passion expanded to music-making, convincing his mother to let him play her flamenco guitar and embarking on a lifelong journey as a guitarist. By his twenties, he began exploring guitar gear and upgrading his stereo equipment, only to find that modern systems often fell short of the warmth and presence of live music. It was this search for the perfect sound that led him to vintage audio gear, particularly receivers from Marantz, Pioneer, and Sansui. While these treasures offered exceptional sound quality, they often came with frustrating technical issues—issues that sparked his desire to learn the art of repair and restoration.
+                <br>
+                A Lifelong Passion for Audio and Engineering
+                <br>
+                Michael’s technical journey began with formal studies in electronics and engineering, complemented by hands-on experience in electronic manufacturing. Over eight years in the field, he worked his way from assembly and testing to quality control and assistant production supervisor, collaborating closely with an experienced Swiss engineer. This mentorship honed his meticulous attention to detail and deepened his expertise in electronics manufacturing and repair.
+                <br>
+                During the early resurgence of vinyl records, Michael began restoring and selling vintage audio equipment, amassing a collection of iconic pieces from brands like Marantz, McIntosh, and Kenwood. His work earned a reputation for quality and innovation, serving clients locally in Montreal, across Eastern Canada, and even internationally. Though his journey has taken him through rigorous engineering studies and demanding day jobs, his passion for audio restoration and the dream of creating his own equipment have remained steadfast.
+                <br>
+                Today, Michael blends his technical expertise with his artistic sensibilities to breathe new life into vintage audio systems, helping music lovers rediscover the warmth and character of classic sound. Through Platinum Audio, he continues to pursue his mission to restore, upgrade, and celebrate the artistry of audio equipment, sharing his love for music and engineering with clients worldwide.</p>
+        </section>
 
-.nav-links a:hover {
-    background-color: #4017d1;
-    padding: 10px 15px;
-}
+        <!-- Rates -->
+        <section id="rates">
+            <h2>Rates</h2>
+            <h3>Rates in Canadian dollars: 66$ / hour</h3>
+            <br>
+            <p>A minimum fee of 66$ is applied to all troubleshooting, inspections and estimates
+            Shipping expenses, import fees and shipping insurance is the responsibility of the client
+            A minimum fee of 66$ is applied to all troubleshooting and inspections
+            Estimates above $150 will be given before any work is started
+            Parts are charged at cost value, including shipping</p>
+        </section>
+        
+        <!-- Sample Projects -->
+        <section id="sample-projects">
+            <h2>Sample Projects</h2>
+        </section>
 
-/* Dropdown menu styling */
-.dropdown {
-    position: relative;
-}
+        <!-- Contact -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <h3>Please contact us by email for any inquiries or services.</h3>
+            <h3>Pick-up & Drop-off equipment in Montreal, Quebec, Canada by mail or on site by appointment</h3>
+            <p>Email: <a href="mailto:PlatinumAudio@Outlook.com">PlatinumAudio@Outlook.com</a></p>
+        </section>    
 
-.dropbtn {
-    cursor: pointer;
-    padding: 10px 15px;
-    color: white;
-    background-color: transparent;
-    border: none;
-}
+    </main>
 
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #3b08f5;
-    min-width: 160px;
-    z-index: 1;
-    border-radius: 5px;
-}
+    <!-- Foorter -->
+    <footer>
+        <p>&copy; 2024 Platinum Audio Services. All rights reserved.</p>
+    </footer>
 
-.dropdown-content a {
-    padding: 12px 16px;
-}
 
-.dropdown-content a:hover {
-    background-color: #1013bb;
-    align-items: center;
-}
-
-/* Show dropdown on hover */
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-/* Background image for sections */
-main {
-    background-image: url('images/BluePCB.jpg');
-    background-attachment: fixed;
-    background-size: cover;
-    color: white;
-    padding: 50px;
-    font-size: 20px; /* Set the base font size */
-}
-
-h1, h2 {
-    margin-bottom: 20px;
-}
-
-section {
-    margin: 2rem auto; /* Add spacing between sections */
-    padding: 1.5rem; /* Space around the text */
-    background-color: rgba(0, 0, 0, 0.9); /* Semi-transparent black */
-    color: white; /* Text color */
-    max-width: 80%; /* Limit the width to keep the layout clean */
-    border-radius: 10px; /* Rounded corners for a modern look */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Optional shadow for depth */
-    text-align: center; /* Horizontally center the text */
-}
-
-#story {
-    color: #3b08f5;
-}
-
-/* Styling for the unordered list */
-section ul, p {
-    color:#6df100;
-    list-style-type: disc; /* Default bullet style */
-    padding-left: 1.5rem; /* Adds space between bullets and section edge */
-    margin-left: 25rem; /* Shifts the entire list further to the right */
-    margin-top: 0; /* Optional: Removes any default margin at the top */
-    margin-bottom: 0; /* Optional: Removes any default margin at the bottom */
-    margin: 0;
-    text-align: left; /* Aligns all text to the left */
-    font-weight: bold;
-}
-
-#home p{
-    text-align: center;  
-}
-
-/* Styling for list items */
-#services li {
-    margin-bottom: 0.5rem; /* Adds space between list items */
-}
-
-footer {
-    background-color: black;
-    color: aliceblue;
-}
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
-    .menu {
-        flex-direction: column;
-    }
-    .menu a {
-        padding: 10px;
-    }
-}
+    <script src="script.js"></script>
+</body>
+</html>
