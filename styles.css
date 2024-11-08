@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Reset some default styles */
 * {
     margin: 0;
@@ -153,3 +154,238 @@ footer {
         padding: 10px;
     }
 }
+=======
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-padding-top: 60px; /* Adjust based on your navbar height */
+    scroll-behavior: smooth; /* For smooth scrolling */
+}
+
+/* Header image styling */
+header {
+    background-color: black;
+}
+
+.header-image {
+    width: 100%;
+    height: 20vh;
+}
+
+/* Navigation bar styling */
+nav {
+    background-color: #000000;
+    padding: 10px 20px;
+    align-items: center;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;  /* Center the nav items */
+    align-items: center;      /* Align items vertically */
+    position: sticky;         /* Keep it at the top of the page */
+    top: 0;                   /* Ensure it stays at the top */
+    width: 100%;              /* Ensure it spans the entire width of the page */
+    z-index: 1000;            /* Ensure it's on top of other content */
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav-links li {
+    position: relative;
+    padding: 10px 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+}
+
+.nav-links a:hover {
+    background-color: #4017d1;
+    padding: 10px 15px;
+}
+
+/* Dropdown menu styling */
+.dropdown {
+    position: relative;
+}
+
+.dropbtn {
+    cursor: pointer;
+    padding: 10px 15px;
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #3b08f5;
+    min-width: 160px;
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+}
+
+.dropdown-content a:hover {
+    background-color: #1013bb;
+    align-items: center;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Background image for sections */
+main {
+    background-image: url('images/BluePCB.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    padding: 50px;
+    font-size: 20px; /* Set the base font size */
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+section {
+    margin: 2rem auto; /* Add spacing between sections */
+    padding: 1.5rem; /* Space around the text */
+    background-color: rgba(0, 0, 0, 0.9); /* Semi-transparent black */
+    color: white; /* Text color */
+    max-width: 80%; /* Limit the width to keep the layout clean */
+    border-radius: 10px; /* Rounded corners for a modern look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Optional shadow for depth */
+    text-align: center; /* Horizontally center the text */
+}
+
+#aboutend {
+    text-align: center;
+}
+
+#story {
+    color: #3b08f5;
+}
+
+/* Styling for the unordered list */
+section ul, p {
+    color:#6df100;
+    list-style-type: disc; /* Default bullet style */
+    padding-left: 1.5rem; /* Adds space between bullets and section edge */
+    margin-left: 25rem; /* Shifts the entire list further to the right */
+    margin-top: 0; /* Optional: Removes any default margin at the top */
+    margin-bottom: 0; /* Optional: Removes any default margin at the bottom */
+    margin: 0;
+    text-align: left; /* Aligns all text to the left */
+    font-weight: bold;
+}
+
+#home p{
+    text-align: center;  
+}
+
+/* Styling for list items */
+#services li {
+    margin-bottom: 0.5rem; /* Adds space between list items */
+}
+
+footer {
+    background-color: black;
+    color: aliceblue;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.video {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; /* Aspect ratio 16:9 */
+}
+
+.video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.restoration-links {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.project {
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+.project img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.project h3 {
+    margin-top: 10px;
+    color: #FFD700;
+}
+
+.project p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.project a {
+    color: #FFD700;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.project a:hover {
+    color: #FF8C00;
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .menu {
+        flex-direction: column;
+    }
+    .menu a {
+        padding: 10px;
+    }
+}
+>>>>>>> master
