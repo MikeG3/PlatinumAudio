@@ -131,6 +131,10 @@ section {
     font-family: 'Roboto Mono', monospace;
 }
 
+.custom-link {
+    font-family: 'Press Start 2P', monospace;
+}
+
 #aboutend {
     text-align: center;
 }
