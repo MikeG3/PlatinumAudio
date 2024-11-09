@@ -118,7 +118,7 @@ h1, h2 {
 section {
     margin: 2rem auto; /* Add spacing between sections */
     padding: 1.5rem; /* Space around the text */
-    background-color: rgba(0, 0, 0, 0.9); /* Semi-transparent black */
+    background-color: rgba(0, 0, 0, 0.925); /* Semi-transparent black */
     color: white; /* Text color */
     max-width: 90%; /* Limit the width to keep the layout clean */
     border-radius: 10px; /* Rounded corners for a modern look */
