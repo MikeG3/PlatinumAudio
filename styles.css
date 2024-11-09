@@ -3,6 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 
 /* Reset some default styles */
 * {
@@ -39,6 +42,7 @@ nav {
     top: 0;                   /* Ensure it stays at the top */
     width: 100%;              /* Ensure it spans the entire width of the page */
     z-index: 1000;            /* Ensure it's on top of other content */
+    font-family: audiowide;
 }
 
 .nav-links {
@@ -119,6 +123,10 @@ h1, h2 {
     font-family: 'Orbitron', sans-serif;
 }
 
+h3 {
+    font-family: 'audiowide', sans-serif;
+}
+
 section {
     margin: 2rem auto; /* Add spacing between sections */
     padding: 1.5rem; /* Space around the text */
@@ -164,6 +172,26 @@ section ul, p {
 #contact p {
     text-align: center; 
 }
+
+#why {
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%; /* Ensure it stretches full width of its container */
+    box-sizing: border-box; /* Make sure padding is included in the width */
+  }
+  
+  #why ol {
+    padding-left: 20px; /* Give space on the left for the numbers */
+    margin: 0 auto; /* Center the list in the container */
+  }
+  
+  #why li {
+    margin-bottom: 15px; /* Adds space between each list item */
+  }
+  
+  #why ol li strong {
+    font-size: 1.1em; /* Makes the strong text slightly larger */
+  }
 
 .social-links {
     display: flex;
