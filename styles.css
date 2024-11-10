@@ -46,6 +46,15 @@ header {
     nav li {
       margin: 10px 0; /* Add spacing between menu items */
     }
+
+    #sample-projects p {
+        text-align: center; /* Center email text */
+        font-size: 16px; /* Adjust font size for smaller screens */
+    }
+
+    .custom-link {
+        word-wrap: break-word; /* Ensure long emails don't overflow */
+    }
   }
   
 
