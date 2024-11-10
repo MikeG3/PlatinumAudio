@@ -316,6 +316,9 @@ footer {
     .menu a {
         padding: 10px;
     }
-} /* CLOSE STYLE FOR MOBILE DEVICE */
 
+    .video{
+        width: 40%;
+    }
+} /* CLOSE STYLE FOR MOBILE DEVICE */
 
