@@ -365,13 +365,11 @@ footer {
         align-items: center;
     }
 
-    section ul {
-        width: 70%;
+    section ul, li, p, a {
+        width: auto;
+        align-items: center;
+        text-align: center;
     }
-    
-    /* Styling for list items */
-    #services li {
-        width: 70%;
-    }
+
 } /* CLOSE STYLE FOR MOBILE DEVICE */
 
