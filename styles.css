@@ -289,6 +289,8 @@ footer {
         flex-direction: column; /* Stack items vertically */
         align-items: center;    /* Center them */
         position: static; /* Menu won't stick on mobile */
+        padding: 5px 10px;
+        margin: 0px;
       }
     
       nav ul {
