@@ -152,7 +152,7 @@ section ul, p {
     color:#6df100;
     list-style-type: disc; /* Default bullet style */
     padding-left: 1.5rem; /* Adds space between bullets and section edge */
-    margin-left: 25rem; /* Shifts the entire list further to the right */
+    /* margin-left: 25rem; */ /* Shifts the entire list further to the right */
     margin-top: 0; /* Optional: Removes any default margin at the top */
     margin-bottom: 0; /* Optional: Removes any default margin at the bottom */
     margin: 0;
