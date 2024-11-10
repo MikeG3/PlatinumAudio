@@ -30,6 +30,26 @@ header {
 }
 
 /* Navigation bar styling */
+@media (max-width: 768px) {
+    nav {
+      display: flex;
+      flex-direction: column; /* Stack items vertically */
+      align-items: center;    /* Center them */
+    }
+  
+    nav ul {
+      flex-direction: column; /* Ensure the menu items stack */
+      padding: 0;
+      margin: 0;
+    }
+  
+    nav li {
+      margin: 10px 0; /* Add spacing between menu items */
+    }
+  }
+  
+
+
 nav {
     background-color: #000000;
     padding: 10px 20px;
