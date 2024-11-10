@@ -282,14 +282,45 @@ footer {
 }
 
 
+/* Responsive adjustments FOR NON MOBILE DEVICE */
+@media (min-width: 768px) {
+    head {
+        margin: 0;
+        padding: 0;
+    }
+
+    #bannermobile {
+        display: none;
+    }
+} /* CLOSE Responsive adjustments FOR NON MOBILE DEVICE */
 /* Responsive adjustments FOR MOBILE DEVICE */
 @media (max-width: 768px) {
+    #banner {
+        display: none;
+    }
+    #bannermobile {
+        color: #6df100;
+        background-color: #000000;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    header {
+        background-color: #000000;
+        margin: 0;
+        padding: 0;
+    }
+    html {
+        background-color: #000000;
+        margin: 0;
+        padding: 0;
+    }
     nav {
         display: flex;
         flex-direction: column; /* Stack items vertically */
         align-items: center;    /* Center them */
         position: static; /* Menu won't stick on mobile */
-        padding: 5px 10px;
+        padding: 0px;
         margin: 0px;
       }
     
@@ -300,6 +331,7 @@ footer {
       }
     
       nav li {
+        padding: 0;
         margin: 0; /* Add spacing between menu items */
       }
   
@@ -323,8 +355,14 @@ footer {
         padding: 10px;
     }
 
-    .video{
+    .video {
+        width: auto;
+        align-items: center;
+    }
+
+    #video-grid {
         width: 75%;
+        align-items: center;
     }
 
     section ul {
