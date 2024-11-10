@@ -320,5 +320,14 @@ footer {
     .video{
         width: 40%;
     }
+
+    section ul {
+        width: 70%;
+    }
+    
+    /* Styling for list items */
+    #services li {
+        width: 70%;
+    }
 } /* CLOSE STYLE FOR MOBILE DEVICE */
 
