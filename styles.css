@@ -29,12 +29,13 @@ header {
     height: 20vh;
 }
 
-/* Navigation bar styling */
+/* STYLE FOR MOBILE DEVICE */
 @media (max-width: 768px) {
     nav {
       display: flex;
       flex-direction: column; /* Stack items vertically */
       align-items: center;    /* Center them */
+      position: static; /* Menu won't stick on mobile */
     }
   
     nav ul {
@@ -55,10 +56,10 @@ header {
     .custom-link {
         word-wrap: break-word; /* Ensure long emails don't overflow */
     }
-  }
+  } /* CLOSE FOR MOBILE DEVICE STYLE */
   
 
-
+/* Navigation bar styling */
 nav {
     background-color: #000000;
     padding: 10px 20px;
