@@ -300,7 +300,7 @@ footer {
       }
     
       nav li {
-        margin: 10px 0; /* Add spacing between menu items */
+        margin: 0; /* Add spacing between menu items */
       }
   
       section {
