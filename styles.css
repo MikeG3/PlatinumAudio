@@ -359,7 +359,7 @@ footer {
         width: auto;
         align-items: center;
     }
-    .video iframe{
+    iframe{
         width: auto;
         align-items: center;
         overflow: hidden;
