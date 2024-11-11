@@ -356,14 +356,8 @@ footer {
     }
 
     .video {
-        width: auto;
+        width: 65%;
         align-items: center;
-        padding-bottom: 10px;
-    }
-    iframe{
-        width: auto;
-        align-items: center;
-        overflow: hidden;
     }
 
     #video-grid {
