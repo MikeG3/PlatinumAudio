@@ -17,7 +17,7 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://mikeg3.github.io/PlatinumAudio/aboutfr.html</loc>
+    <loc>https://mikeg3.github.io/PlatinumAudio/aboutFR.html</loc>
     <priority>0.8</priority>
     <changefreq>weekly</changefreq>
   </url>
@@ -27,7 +27,7 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://mikeg3.github.io/PlatinumAudio/ratesfr.html</loc>
+    <loc>https://mikeg3.github.io/PlatinumAudio/ratesFR.html</loc>
     <priority>0.7</priority>
     <changefreq>weekly</changefreq>
   </url>
@@ -52,7 +52,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://mikeg3.github.io/PlatinumAudio/whyusfr.html</loc>
+    <loc>https://mikeg3.github.io/PlatinumAudio/whyusFR.html</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
