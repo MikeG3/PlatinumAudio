@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- Main Pages -->
+  <!--  Main Pages  -->
   <url>
     <loc>https://mikeg3.github.io/PlatinumAudio/index.html</loc>
     <priority>1.0</priority>
@@ -56,8 +56,7 @@
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
-
-  <!-- Additional Files (CSS, JS, README) -->
+  <!--  Additional Files (CSS, JS, README)  -->
   <url>
     <loc>https://mikeg3.github.io/PlatinumAudio/styles.css</loc>
     <priority>0.1</priority>
