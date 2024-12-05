@@ -67,9 +67,4 @@
     <priority>0.1</priority>
     <changefreq>monthly</changefreq>
   </url>
-  <url>
-    <loc>https://mikeg3.github.io/PlatinumAudio/readme.md</loc>
-    <priority>0.1</priority>
-    <changefreq>monthly</changefreq>
-  </url>
 </urlset>
