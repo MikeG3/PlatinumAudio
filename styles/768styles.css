@@ -51,6 +51,7 @@
     nav li {
         padding: 0;
         margin: 0; /* Add spacing between menu items */
+        margin-top: -10px;
     }
 
     .nav-links a:hover {
