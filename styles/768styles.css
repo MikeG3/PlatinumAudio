@@ -18,8 +18,8 @@
         border-radius: 20px;
         display: block; /* Show the mobile banner on mobile */
         margin-top: 10px;
-        width: 90%;        /* Make the banner narrower on mobile */
-        margin-left: 5%; /* Center the banner horizontally */
+        width: 92%;        /* Make the banner narrower on mobile */
+        margin-left: 4%; /* Center the banner horizontally */
     }
 
     #bannermobile a {
