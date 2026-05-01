@@ -158,9 +158,12 @@ section {
     font-family: 'Roboto Mono', monospace;
 }
 
+section a:visited {
+    color: blue;
+}
+
 .custom-link {
-    /* font-family: 'Press Start 2P', monospace; */
-    font-size: 22px;
+    font-size: 22px; /* font-family: 'Press Start 2P', monospace; */
 }
 
 #aboutend {
