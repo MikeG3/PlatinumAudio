@@ -95,11 +95,13 @@
 
     .video {
         align-items: center;
+        width: 100%;
         max-width: 400px !important; /* Limit the maximum width of the video */
         border-radius: 10px;
     }
 
     .video iframe {
+        width: 100%;
         align-items: center;
         max-width: 400px !important; /* Limit the maximum width of the video */
         border-radius: 10px;
