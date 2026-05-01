@@ -97,11 +97,6 @@
         border-radius: 10px;
     }
 
-    #video-grid {
-        width: 75%;
-        align-items: center;
-    }
-
     section ul, li, p, a {
         width: auto;
         align-items: center;
