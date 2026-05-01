@@ -262,7 +262,7 @@ footer {
 .video {
     position: relative;
     width: 100%;
-    max-width: 600px;
+    max-width: 400px;
     padding-top: 56.25%; /* Aspect ratio 16:9 */
 }
 
