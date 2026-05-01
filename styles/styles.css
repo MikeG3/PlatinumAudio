@@ -140,10 +140,18 @@ nav {
 h1, h2 {
     margin-bottom: 20px;
     font-family: 'Orbitron', sans-serif;
+    color: #6df100;
+    text-decoration-color: #6df100;
 }
 
 h3 {
     font-family: 'audiowide', sans-serif;
+    color: #6df100;
+    text-decoration-color: #6df100;
+}
+
+p {
+    color: white;
 }
 
 section {
@@ -171,9 +179,8 @@ section a:visited {
 }
 
 /* Styling for the unordered list */
-section ul,
-p {
-    color: #6df100;
+section ul, p {
+    color: white;
     list-style-type: disc;
     /* Default bullet style */
     padding-left: 1rem;
@@ -188,6 +195,14 @@ p {
     text-align: left;
     /* Aligns all text to the left */
     font-weight: bold;
+}
+
+section a {
+    text-decoration-color: #6df100;
+}
+
+#contact a {
+    text-decoration-color: blue;
 }
 
 #home p {
