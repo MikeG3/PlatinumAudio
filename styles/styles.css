@@ -201,6 +201,11 @@ section a {
     text-decoration-color: #6df100;
 }
 
+#rates h3, #rates a, #aboutend h3, #aboutend a, #services h3, #services a {
+    color: blue;
+    text-decoration-color: blue;
+}
+
 #contact a {
     text-decoration-color: blue;
 }
