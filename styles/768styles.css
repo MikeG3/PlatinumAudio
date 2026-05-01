@@ -1,17 +1,27 @@
 /* Responsive adjustments FOR MOBILE DEVICE */
 @media (max-width: 768px) {
     #banner {
-        display: none;
+        display: none; /* Hide the desktop banner on mobile */
     }
 
     #bannermobile {
         color: #6df100;
         background-color: #000000;
         text-align: center;
-        margin: 5px;
-        margin-bottom: -20px -20px;
+        margin: 4px;
         padding: 0;
         border-radius: 20px;
+    }
+
+    #bannermobile a {
+        text-decoration: none;
+        color: #6df100;
+        background-color: #000000;
+        position: sticky;
+    }
+
+    #home-link {
+        display: none; /* Hide the home link on mobile */
     }
 
     header {

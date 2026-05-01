@@ -47,6 +47,10 @@ header{
     padding: 0;
 }
 
+.banner-mobile {
+    display: none; /* Hide the mobile banner by default */
+}
+
 /* Navigation bar styling */
 nav {
     background-color: #000000;
