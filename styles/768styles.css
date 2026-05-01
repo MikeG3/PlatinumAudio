@@ -93,6 +93,7 @@
     .video {
         width: 65%;
         align-items: center;
+        max-width: 400px; /* Limit the maximum width of the video */
     }
 
     #video-grid {

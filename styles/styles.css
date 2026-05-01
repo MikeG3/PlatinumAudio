@@ -223,27 +223,21 @@ p {
 
 .social-links {
     display: flex;
-    justify-content: center;
-    /* Centers the icons horizontally */
-    gap: 20px;
-    /* Adjust spacing between icons */
-    margin-top: 20px;
-    /* Optional: Adds space above the icons */
+    justify-content: center; /* Centers the icons horizontally */
+    gap: 20px; /* Adjust spacing between icons */
+    margin-top: 20px; /* Optional: Adds space above the icons */
 }
 
 .social-links img {
-    width: 120px;
-    /* Increase size of icons */
+    width: 120px; /* Increase size of icons */
     height: 120px;
     transition: transform 0.3s ease;
     cursor: pointer;
-    vertical-align: middle;
-    /* Align icons vertically in the middle */
+    vertical-align: middle; /* Align icons vertically in the middle */
 }
 
 .social-links img:hover {
-    transform: scale(1.2);
-    /* Slight enlargement on hover */
+    transform: scale(1.2); /* Slight enlargement on hover */
 }
 
 footer {
