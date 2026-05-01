@@ -85,9 +85,16 @@
         word-wrap: break-word;  /* Ensure long emails don't overflow */
     }
 
+    .video {
+        align-items: center;
+        max-width: 400px !important; /* Limit the maximum width of the video */
+        border-radius: 10px;
+    }
+
     .video iframe {
         align-items: center;
         max-width: 400px !important; /* Limit the maximum width of the video */
+        border-radius: 10px;
     }
 
     #video-grid {
