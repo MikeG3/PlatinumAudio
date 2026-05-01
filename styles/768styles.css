@@ -84,14 +84,6 @@
         word-wrap: break-word;  /* Ensure long emails don't overflow */
     }
 
-    .menu {
-        flex-direction: column;
-    }
-
-    .menu a {
-        padding: 10px;
-    }
-
     .video {
         width: 65%;
         align-items: center;
