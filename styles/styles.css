@@ -18,16 +18,33 @@
 html {
     scroll-padding-top: 60px; /* Adjust based on your navbar height */
     scroll-behavior: smooth; /* For smooth scrolling */
+    background-image: url('../images/BluePCB.jpg'); /* Background image for sections */
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+main {
+    color: white;
+    padding: 10px;
+    font-size: 20px;    /* Set the base font size */
+    width: 100%;
 }
 
 /* Header image styling */
-header {
-    background-color: black;
+header{
+    margin-top: 1px;
+    margin-bottom: -5px;
+    margin-left: 3px;
+    margin-right: 10px;
 }
 
 .header-image {
     width: 100%;
     height: 20vh;
+    border-radius: 25px;
+    border: #000000 solid 2px;
+    margin: 3px;
+    padding: 0;
 }
 
 /* Navigation bar styling */
@@ -44,11 +61,12 @@ nav {
     width: 100%; /* Ensure it spans the entire width of the page */
     z-index: 1000; /* Ensure it's on top of other content */
     font-family: audiowide;
+    border-radius: 20px;
 }
 
 .nav-links {
     list-style: none;
-    margin: 0;
+    margin: -10px;
     padding: 0;
     display: flex;
     justify-content: flex-start;
@@ -109,20 +127,7 @@ nav {
     display: block;
 }
 
-/* Background image for sections */
-main {
-    background-image: url('../images/BluePCB.jpg');
-    background-attachment: fixed;
-    background-size: cover;
-    color: white;
-    padding: 50px;
-    font-size: 20px;
-    /* Set the base font size */
-    width: 100%;
-}
-
-h1,
-h2 {
+h1, h2 {
     margin-bottom: 20px;
     font-family: 'Orbitron', sans-serif;
 }
@@ -132,22 +137,14 @@ h3 {
 }
 
 section {
-    margin: 2rem auto;
-    /* Add spacing between sections */
-    padding: 1.5rem;
-    /* Space around the text */
-    background-color: rgba(0, 0, 0, 0.925);
-    /* Semi-transparent black */
-    color: white;
-    /* Text color */
-    max-width: 90%;
-    /* Limit the width to keep the layout clean */
-    border-radius: 10px;
-    /* Rounded corners for a modern look */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-    /* Optional shadow for depth */
-    text-align: center;
-    /* Horizontally center the text */
+    margin: 2rem auto; /* Add spacing between sections */
+    padding: 1.5rem;    /* Space around the text */
+    background-color: rgba(0, 0, 0, 0.925); /* Semi-transparent black */
+    color: white;   /* Text color */
+    max-width: 90%; /* Limit the width to keep the layout clean */
+    border-radius: 10px;    /* Rounded corners for a modern look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);   /* Optional shadow for depth */
+    text-align: center; /* Horizontally center the text */
     font-family: 'Roboto Mono', monospace;
 }
 
