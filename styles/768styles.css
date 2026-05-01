@@ -85,8 +85,7 @@
         word-wrap: break-word;  /* Ensure long emails don't overflow */
     }
 
-    .video, .video iframe {
-        width: 65% !important;
+    .video iframe {
         align-items: center;
         max-width: 400px !important; /* Limit the maximum width of the video */
     }
