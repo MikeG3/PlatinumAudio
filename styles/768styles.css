@@ -20,6 +20,8 @@
         margin-top: 10px;
         width: 92%;        /* Make the banner narrower on mobile */
         margin-left: 4%; /* Center the banner horizontally */
+        position: sticky !important;
+        top: 0;
     }
 
     #bannermobile a {
@@ -29,7 +31,6 @@
         text-decoration: none;
         color: #6df100;
         background-color: #000000;
-        position: sticky;
         border-radius: 20px;
     }
 
@@ -38,8 +39,8 @@
     }
 
     nav {
+        position: static !important;
         align-items: center; /* Center them */
-        position: static; /* Menu won't stick on mobile */
         margin-top: -15px;
         max-width: 90%; /*Narrower */
         margin-left: 5%; /* Center the menu horizontally */
@@ -68,7 +69,7 @@
 
     /* Dropdown menu styling */
     .dropdown-content a{
-        background-color: rgba(0, 0, 0, 0.75);
+        background-color: rgba(0, 0, 0, 0.95);
     }
 
     .dropdown-content a:hover {
