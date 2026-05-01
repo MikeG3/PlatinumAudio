@@ -67,8 +67,9 @@ nav {
 }
 
 .nav-links a:hover {
-    background-color: #4017d1;
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 10px 15px;
+    color: #6df100;
 }
 
 /* Dropdown menu styling */
@@ -87,7 +88,7 @@ nav {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #3b08f5;
+    background-color: rgba(0, 0, 0, 0.7);
     min-width: 160px;
     z-index: 1;
     border-radius: 5px;
@@ -98,7 +99,7 @@ nav {
 }
 
 .dropdown-content a:hover {
-    background-color: #1013bb;
+    background-color: rgba(0, 0, 0, 0.95);
     align-items: center;
 }
 
