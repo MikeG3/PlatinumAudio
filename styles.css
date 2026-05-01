@@ -15,8 +15,10 @@
 }
 
 html {
-    scroll-padding-top: 60px; /* Adjust based on your navbar height */
-    scroll-behavior: smooth; /* For smooth scrolling */
+    scroll-padding-top: 60px;
+    /* Adjust based on your navbar height */
+    scroll-behavior: smooth;
+    /* For smooth scrolling */
 }
 
 /* Header image styling */
@@ -36,12 +38,12 @@ nav {
     align-items: center;
     font-size: 24px;
     display: flex;
-    justify-content: center;  /* Center the nav items */
-    align-items: center;      /* Align items vertically */
-    position: sticky;         /* Keep it at the top of the page */
-    top: 0;                   /* Ensure it stays at the top */
-    width: 100%;              /* Ensure it spans the entire width of the page */
-    z-index: 1000;            /* Ensure it's on top of other content */
+    justify-content: center; /* Center the nav items */
+    align-items: center; /* Align items vertically */
+    position: sticky; /* Keep it at the top of the page */
+    top: 0; /* Ensure it stays at the top */
+    width: 100%; /* Ensure it spans the entire width of the page */
+    z-index: 1000; /* Ensure it's on top of other content */
     font-family: audiowide;
 }
 
@@ -115,11 +117,13 @@ main {
     background-size: cover;
     color: white;
     padding: 50px;
-    font-size: 20px; /* Set the base font size */
+    font-size: 20px;
+    /* Set the base font size */
     width: 100%;
 }
 
-h1, h2 {
+h1,
+h2 {
     margin-bottom: 20px;
     font-family: 'Orbitron', sans-serif;
 }
@@ -129,14 +133,22 @@ h3 {
 }
 
 section {
-    margin: 2rem auto; /* Add spacing between sections */
-    padding: 1.5rem; /* Space around the text */
-    background-color: rgba(0, 0, 0, 0.925); /* Semi-transparent black */
-    color: white; /* Text color */
-    max-width: 90%; /* Limit the width to keep the layout clean */
-    border-radius: 10px; /* Rounded corners for a modern look */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Optional shadow for depth */
-    text-align: center; /* Horizontally center the text */
+    margin: 2rem auto;
+    /* Add spacing between sections */
+    padding: 1.5rem;
+    /* Space around the text */
+    background-color: rgba(0, 0, 0, 0.925);
+    /* Semi-transparent black */
+    color: white;
+    /* Text color */
+    max-width: 90%;
+    /* Limit the width to keep the layout clean */
+    border-radius: 10px;
+    /* Rounded corners for a modern look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    /* Optional shadow for depth */
+    text-align: center;
+    /* Horizontally center the text */
     font-family: 'Roboto Mono', monospace;
 }
 
@@ -150,68 +162,88 @@ section {
 }
 
 /* Styling for the unordered list */
-section ul, p {
-    color:#6df100;
-    list-style-type: disc; /* Default bullet style */
-    padding-left: 1rem; /* Adds space between bullets and section edge */
-    /* margin-left: 25rem; */ /* Shifts the entire list further to the right */
-    margin-top: 0; /* Optional: Removes any default margin at the top */
-    margin-bottom: 0; /* Optional: Removes any default margin at the bottom */
+section ul,
+p {
+    color: #6df100;
+    list-style-type: disc;
+    /* Default bullet style */
+    padding-left: 1rem;
+    /* Adds space between bullets and section edge */
+    /* margin-left: 25rem; */
+    /* Shifts the entire list further to the right */
+    margin-top: 0;
+    /* Optional: Removes any default margin at the top */
+    margin-bottom: 0;
+    /* Optional: Removes any default margin at the bottom */
     margin: 0;
-    text-align: left; /* Aligns all text to the left */
+    text-align: left;
+    /* Aligns all text to the left */
     font-weight: bold;
 }
 
-#home p{
-    text-align: center;  
+#home p {
+    text-align: center;
 }
 
 /* Styling for list items */
 #services li {
-    margin-bottom: 0.5rem; /* Adds space between list items */
+    margin-bottom: 0.5rem;
+    /* Adds space between list items */
 }
 
 #contact p {
-    text-align: center; 
+    text-align: center;
 }
 
 #why {
     padding: 20px;
     border-radius: 10px;
-    width: 100%; /* Ensure it stretches full width of its container */
-    box-sizing: border-box; /* Make sure padding is included in the width */
-  }
-  
-  #why ol {
-    padding-left: 20px; /* Give space on the left for the numbers */
-    margin: 0 auto; /* Center the list in the container */
-  }
-  
-  #why li {
-    margin-bottom: 15px; /* Adds space between each list item */
-  }
-  
-  #why ol li strong {
-    font-size: 1.1em; /* Makes the strong text slightly larger */
-  }
+    width: 100%;
+    /* Ensure it stretches full width of its container */
+    box-sizing: border-box;
+    /* Make sure padding is included in the width */
+}
+
+#why ol {
+    padding-left: 20px;
+    /* Give space on the left for the numbers */
+    margin: 0 auto;
+    /* Center the list in the container */
+}
+
+#why li {
+    margin-bottom: 15px;
+    /* Adds space between each list item */
+}
+
+#why ol li strong {
+    font-size: 1.1em;
+    /* Makes the strong text slightly larger */
+}
 
 .social-links {
     display: flex;
-    justify-content: center; /* Centers the icons horizontally */
-    gap: 20px; /* Adjust spacing between icons */
-    margin-top: 20px; /* Optional: Adds space above the icons */
+    justify-content: center;
+    /* Centers the icons horizontally */
+    gap: 20px;
+    /* Adjust spacing between icons */
+    margin-top: 20px;
+    /* Optional: Adds space above the icons */
 }
 
 .social-links img {
-    width: 120px; /* Increase size of icons */
+    width: 120px;
+    /* Increase size of icons */
     height: 120px;
     transition: transform 0.3s ease;
     cursor: pointer;
-    vertical-align: middle; /* Align icons vertically in the middle */
+    vertical-align: middle;
+    /* Align icons vertically in the middle */
 }
 
 .social-links img:hover {
-    transform: scale(1.2); /* Slight enlargement on hover */
+    transform: scale(1.2);
+    /* Slight enlargement on hover */
 }
 
 footer {
@@ -230,7 +262,8 @@ footer {
 .video {
     position: relative;
     width: 100%;
-    padding-top: 56.25%; /* Aspect ratio 16:9 */
+    padding-top: 56.25%;
+    /* Aspect ratio 16:9 */
 }
 
 .video iframe {
@@ -294,12 +327,15 @@ footer {
     #bannermobile {
         display: none;
     }
-} /* CLOSE Responsive adjustments FOR NON MOBILE DEVICE */
+}
+
+/* CLOSE Responsive adjustments FOR NON MOBILE DEVICE */
 /* Responsive adjustments FOR MOBILE DEVICE */
 @media (max-width: 768px) {
     #banner {
         display: none;
     }
+
     #bannermobile {
         color: #6df100;
         background-color: #000000;
@@ -307,52 +343,79 @@ footer {
         margin: 0;
         padding: 0;
     }
+
     header {
         background-color: #000000;
         margin: 0;
         padding: 0;
     }
+
     html {
         background-color: #000000;
         margin: 0;
         padding: 0;
     }
+
     nav {
         display: flex;
-        flex-direction: column; /* Stack items vertically */
-        align-items: center;    /* Center them */
-        position: static; /* Menu won't stick on mobile */
+        flex-direction: column;
+        /* Stack items vertically */
+        align-items: center;
+        /* Center them */
+        position: static;
+        /* Menu won't stick on mobile */
         padding: 0px;
         margin: 0px;
-      }
-    
-      nav ul {
-        flex-direction: column; /* Ensure the menu items stack */
+    }
+
+    nav ul {
+        flex-direction: column;
+        /* Ensure the menu items stack */
         padding: 0;
         margin: 0;
-      }
-    
-      nav li {
+    }
+
+    nav li {
         padding: 0;
-        margin: 0; /* Add spacing between menu items */
-      }
-  
-      section {
+        margin: 0;
+        /* Add spacing between menu items */
+    }
+
+    .nav-links a:hover {
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 10px 15px;
+        color: #6df100;
+    }
+
+    /* Dropdown menu styling */
+    .dropdown-content {
+        background-color: rgba(0, 0, 0, 0.85);
+    }
+
+    .dropdown-content a:hover {
+        background-color: rgba(0, 0, 0, 0.95);
+    }
+
+    section {
         max-width: 96%;
     }
 
-      #sample-projects p {
-          text-align: center; /* Center email text */
-          font-size: 16px; /* Adjust font size for smaller screens */
-      }
-  
-      .custom-link {
-          word-wrap: break-word; /* Ensure long emails don't overflow */
-      }
+    #sample-projects p {
+        text-align: center;
+        /* Center email text */
+        font-size: 16px;
+        /* Adjust font size for smaller screens */
+    }
+
+    .custom-link {
+        word-wrap: break-word;
+        /* Ensure long emails don't overflow */
+    }
 
     .menu {
         flex-direction: column;
     }
+
     .menu a {
         padding: 10px;
     }
@@ -367,11 +430,21 @@ footer {
         align-items: center;
     }
 
-    section ul, li, p, a {
+    section ul,
+    li,
+    p,
+    a {
         width: auto;
         align-items: center;
         text-align: center;
     }
 
-} /* CLOSE STYLE FOR MOBILE DEVICE */
+    #facebook-icon {
+        width: 80px;
+        /* Increase size of icons */
+        height: 80px;
+    }
 
+}
+
+/* CLOSE STYLE FOR MOBILE DEVICE */
