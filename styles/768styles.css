@@ -85,6 +85,14 @@
         word-wrap: break-word;  /* Ensure long emails don't overflow */
     }
 
+    .video-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 15px;
+        margin: 0;
+        justify-items: center;
+    }
+
     .video {
         align-items: center;
         max-width: 400px !important; /* Limit the maximum width of the video */
