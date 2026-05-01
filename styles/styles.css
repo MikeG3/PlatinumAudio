@@ -39,12 +39,13 @@ header{
 }
 
 .header-image {
-    width: 100%;
+    width: 90%;
     height: 20vh;
     border-radius: 25px;
     border: #000000 solid 2px;
     margin: 3px;
     padding: 0;
+    margin-left: 5%;    /* Center the header image horizontally */
 }
 
 .banner-mobile {
@@ -57,7 +58,7 @@ header{
 
 /* Navigation bar styling */
 nav {
-    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0.85);
     padding: 10px 20px;
     align-items: center;
     font-size: 24px;
@@ -66,7 +67,8 @@ nav {
     align-items: center; /* Align items vertically */
     position: sticky; /* Keep it at the top of the page */
     top: 0; /* Ensure it stays at the top */
-    width: 100%; /* Ensure it spans the entire width of the page */
+    width: 90%; 
+    margin-left: 5%;    /* Center the nav horizontally */
     z-index: 1000; /* Ensure it's on top of other content */
     font-family: audiowide;
     border-radius: 20px;
@@ -94,7 +96,7 @@ nav {
 }
 
 .nav-links a:hover {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.75);
     padding: 10px 15px;
     color: #6df100;
 }
