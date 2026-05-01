@@ -1,3 +1,4 @@
+@import url('768styles.css');
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
@@ -112,7 +113,7 @@ nav {
 
 /* Background image for sections */
 main {
-    background-image: url('images/BluePCB.jpg');
+    background-image: url('../images/BluePCB.jpg');
     background-attachment: fixed;
     background-size: cover;
     color: white;
@@ -328,123 +329,3 @@ footer {
         display: none;
     }
 }
-
-/* CLOSE Responsive adjustments FOR NON MOBILE DEVICE */
-/* Responsive adjustments FOR MOBILE DEVICE */
-@media (max-width: 768px) {
-    #banner {
-        display: none;
-    }
-
-    #bannermobile {
-        color: #6df100;
-        background-color: #000000;
-        text-align: center;
-        margin: 0;
-        padding: 0;
-    }
-
-    header {
-        background-color: #000000;
-        margin: 0;
-        padding: 0;
-    }
-
-    html {
-        background-color: #000000;
-        margin: 0;
-        padding: 0;
-    }
-
-    nav {
-        display: flex;
-        flex-direction: column;
-        /* Stack items vertically */
-        align-items: center;
-        /* Center them */
-        position: static;
-        /* Menu won't stick on mobile */
-        padding: 0px;
-        margin: 0px;
-    }
-
-    nav ul {
-        flex-direction: column;
-        /* Ensure the menu items stack */
-        padding: 0;
-        margin: 0;
-    }
-
-    nav li {
-        padding: 0;
-        margin: 0;
-        /* Add spacing between menu items */
-    }
-
-    .nav-links a:hover {
-        background-color: rgba(0, 0, 0, 0.5);
-        padding: 10px 15px;
-        color: #6df100;
-    }
-
-    /* Dropdown menu styling */
-    .dropdown-content {
-        background-color: rgba(0, 0, 0, 0.85);
-    }
-
-    .dropdown-content a:hover {
-        background-color: rgba(0, 0, 0, 0.95);
-    }
-
-    section {
-        max-width: 96%;
-    }
-
-    #sample-projects p {
-        text-align: center;
-        /* Center email text */
-        font-size: 16px;
-        /* Adjust font size for smaller screens */
-    }
-
-    .custom-link {
-        word-wrap: break-word;
-        /* Ensure long emails don't overflow */
-    }
-
-    .menu {
-        flex-direction: column;
-    }
-
-    .menu a {
-        padding: 10px;
-    }
-
-    .video {
-        width: 65%;
-        align-items: center;
-    }
-
-    #video-grid {
-        width: 75%;
-        align-items: center;
-    }
-
-    section ul,
-    li,
-    p,
-    a {
-        width: auto;
-        align-items: center;
-        text-align: center;
-    }
-
-    #facebook-icon {
-        width: 80px;
-        /* Increase size of icons */
-        height: 80px;
-    }
-
-}
-
-/* CLOSE STYLE FOR MOBILE DEVICE */
