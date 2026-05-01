@@ -51,6 +51,10 @@ header{
     display: none; /* Hide the mobile banner by default */
 }
 
+#mobileBannerSpacer{
+    display: none; /* Hide the mobile banner spacer by default */
+}
+
 /* Navigation bar styling */
 nav {
     background-color: #000000;
