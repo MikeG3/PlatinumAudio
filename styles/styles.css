@@ -16,10 +16,8 @@
 }
 
 html {
-    scroll-padding-top: 60px;
-    /* Adjust based on your navbar height */
-    scroll-behavior: smooth;
-    /* For smooth scrolling */
+    scroll-padding-top: 60px; /* Adjust based on your navbar height */
+    scroll-behavior: smooth; /* For smooth scrolling */
 }
 
 /* Header image styling */
