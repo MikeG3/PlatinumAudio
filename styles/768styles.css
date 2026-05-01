@@ -1,32 +1,36 @@
 /* Responsive adjustments FOR MOBILE DEVICE */
 @media (max-width: 768px) {
+
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
     #banner {
         display: none; /* Hide the desktop banner on mobile */
     }
 
-    #mobileBannerSpacer {
-        display: block; /* Show the mobile banner spacer on mobile */
-        height: 25px; /* Add some space above the mobile banner */;
-        width: 50px;
-        outline: red solid 5px; /* Add a red outline to visualize the spacer */
-    }
-
     #bannermobile {
+        align-items: center;
+        text-align: center;
         color: #6df100;
         background-color: #000000;
-        text-align: center;
-        margin: 4px;
-        padding: 0;
         border-radius: 20px;
         display: block; /* Show the mobile banner on mobile */
         margin-top: 10px;
+        width: 90%;        /* Make the banner narrower on mobile */
+        margin-left: 5%; /* Center the banner horizontally */
     }
 
     #bannermobile a {
+        display: block;
+        text-align: center;
+        align-items: center;
         text-decoration: none;
         color: #6df100;
         background-color: #000000;
         position: sticky;
+        border-radius: 20px;
     }
 
     #home-link {
@@ -37,6 +41,8 @@
         align-items: center; /* Center them */
         position: static; /* Menu won't stick on mobile */
         margin-top: -15px;
+        max-width: 90%; /*Narrower */
+        margin-left: 5%; /* Center the menu horizontally */
     }
 
     nav ul {
@@ -62,7 +68,7 @@
 
     /* Dropdown menu styling */
     .dropdown-content a{
-        background-color: rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.75);
     }
 
     .dropdown-content a:hover {
