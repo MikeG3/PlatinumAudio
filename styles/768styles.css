@@ -86,10 +86,9 @@
     }
 
     .video, .video iframe {
-        width: 65%;
+        width: 65% !important;
         align-items: center;
-        max-width: 400px; /* Limit the maximum width of the video */
-        max-width: 100%;
+        max-width: 400px !important; /* Limit the maximum width of the video */
     }
 
     #video-grid {
