@@ -153,7 +153,7 @@ p {
 }
 
 section {
-    margin: 2rem auto; /* Add spacing between sections */
+    margin: 1.5rem auto; /* Add spacing between sections */
     padding: 1.5rem;    /* Space around the text */
     background-color: rgba(0, 0, 0, 0.925); /* Semi-transparent black */
     color: white;   /* Text color */
