@@ -11,7 +11,7 @@
     }
 
     #banner {
-        display: none; /* Hide the desktop banner on mobile */
+        display: none !important; /* Hide the desktop banner on mobile */
     }
 
     #bannermobile {

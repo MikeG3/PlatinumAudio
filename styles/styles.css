@@ -48,12 +48,8 @@ header{
     margin-left: 5%;    /* Center the header image horizontally */
 }
 
-.banner-mobile {
-    display: none; /* Hide the mobile banner by default */
-}
-
-#mobileBannerSpacer{
-    display: none; /* Hide the mobile banner spacer by default */
+#bannermobile {
+    display: none !important; /* Hide the mobile banner by default */
 }
 
 /* Navigation bar styling */
@@ -117,7 +113,7 @@ nav {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.8);
     min-width: 160px;
     z-index: 1;
     border-radius: 5px;
