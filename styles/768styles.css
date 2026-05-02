@@ -20,7 +20,7 @@
         color: #6df100;
         background-color: #000000;
         border-radius: 20px;
-        display: block; /* Show the mobile banner on mobile */
+        display: block !important; /* Show the mobile banner on mobile */
         margin-top: 15px;
         width: 94%;        /* Make the banner narrower on mobile */
         margin-left: 4%; /* Center the banner horizontally */

@@ -49,7 +49,7 @@ header{
 }
 
 #bannermobile {
-    display: none !important; /* Hide the mobile banner by default */
+    display: none; /* Hide the mobile banner by default */
 }
 
 /* Navigation bar styling */
