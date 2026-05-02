@@ -94,6 +94,14 @@
         outline:#6df100 solid 1px;
     }
 
+    #services li {
+        text-align: left;
+    }
+
+    #about li {
+        text-align: left;
+    }
+
     #sample-projects p {
         text-align: center; /* Center email text */
         font-size: 16px; /* Adjust font size for smaller screens */
