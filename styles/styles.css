@@ -50,6 +50,7 @@ header{
 
 #bannermobile {
     display: none; /* Hide the mobile banner by default */
+    margin-bottom: -5px;
 }
 
 /* Navigation bar styling */
