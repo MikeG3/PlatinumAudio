@@ -45,18 +45,19 @@
     nav {
         position: static !important;
         align-items: center; /* Center them */
-        margin-top: -5px;
         max-width: 90%; /*Narrower */
         margin-left: 5%; /* Center the menu horizontally */
     }
 
     nav ul {
         flex-direction: column; /* Ensure the menu items stack */
+        width: 100%; /* Make the menu full width */
     }
 
     nav li {
         padding: 0;
         margin: 0; /* Add spacing between menu items */
+        width: 100%; /* Make menu items full width */
     }
 
     .nav-links a:hover {
