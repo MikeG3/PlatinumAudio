@@ -66,10 +66,20 @@
     }
 
     /* Dropdown menu styling */
+    .dropdown {
+        position: relative;
+    }
+
+    .dropdown-content {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        margin-left: 28%;
+    }
+
     .dropdown-content a{
         background-color: rgba(0, 0, 0, 0.95);
         margin-top: 14px;
-        margin-left: 65px;
         border-radius: 20px;
         outline: rgba(255, 255, 255, 0.75) solid 1px;
     }
