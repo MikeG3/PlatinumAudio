@@ -180,19 +180,12 @@ section a:visited {
 /* Styling for the unordered list */
 section ul, p {
     color: white;
-    list-style-type: disc;
-    /* Default bullet style */
-    padding-left: 1rem;
-    /* Adds space between bullets and section edge */
-    /* margin-left: 25rem; */
-    /* Shifts the entire list further to the right */
-    margin-top: 0;
-    /* Optional: Removes any default margin at the top */
-    margin-bottom: 0;
-    /* Optional: Removes any default margin at the bottom */
+    list-style-type: disc; /* Default bullet style */
+    padding-left: 1rem; /* Shifts the entire list further to the right */
+    margin-top: 0; /* Optional: Removes any default margin at the top */
+    margin-bottom: 0; /* Optional: Removes any default margin at the bottom */
     margin: 0;
-    text-align: left;
-    /* Aligns all text to the left */
+    text-align: left; /* Aligns all text to the left */
     font-weight: bold;
 }
 
@@ -200,7 +193,7 @@ section a {
     text-decoration-color: #6df100;
 }
 
-#rates h3, #rates a, #aboutend h3, #aboutend a, #services h3, #services a {
+#rates h3, #rates a, #aboutend h3, #aboutend a, #services h3, #services a, .blue-link {
     color: blue;
     text-decoration-color: blue;
 }
@@ -215,8 +208,7 @@ section a {
 
 /* Styling for list items */
 #services li {
-    margin-bottom: 0.5rem;
-    /* Adds space between list items */
+    margin-bottom: 0.5rem; /* Adds space between list items */
 }
 
 #contact p {
@@ -226,10 +218,8 @@ section a {
 #why {
     padding: 20px;
     border-radius: 10px;
-    width: 100%;
-    /* Ensure it stretches full width of its container */
-    box-sizing: border-box;
-    /* Make sure padding is included in the width */
+    width: 100%; /* Ensure it stretches full width of its container */
+    box-sizing: border-box; /* Make sure padding is included in the width */
 }
 
 #why ol {
