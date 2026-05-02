@@ -6,6 +6,10 @@
         margin: 0;
     }
 
+    main {
+        margin-top: -20px;
+    }
+
     #banner {
         display: none; /* Hide the desktop banner on mobile */
     }
@@ -17,8 +21,8 @@
         background-color: #000000;
         border-radius: 20px;
         display: block; /* Show the mobile banner on mobile */
-        margin-top: 10px;
-        width: 92%;        /* Make the banner narrower on mobile */
+        margin-top: 15px;
+        width: 94%;        /* Make the banner narrower on mobile */
         margin-left: 4%; /* Center the banner horizontally */
         position: sticky !important;
         top: 0;
@@ -41,7 +45,7 @@
     nav {
         position: static !important;
         align-items: center; /* Center them */
-        margin-top: -15px;
+        margin-top: -5px;
         max-width: 90%; /*Narrower */
         margin-left: 5%; /* Center the menu horizontally */
     }
