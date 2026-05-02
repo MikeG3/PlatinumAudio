@@ -271,7 +271,10 @@ section a {
 
 footer {
     background-color: black;
-    color: aliceblue;
+}
+
+footer p {
+    color: #6df100;
 }
 
 .video-grid {
@@ -339,15 +342,3 @@ footer {
     color: #FF8C00;
 }
 
-
-/* Responsive adjustments FOR NON MOBILE DEVICE */
-@media (min-width: 768px) {
-    head {
-        margin: 0;
-        padding: 0;
-    }
-
-    #bannermobile {
-        display: none;
-    }
-}
