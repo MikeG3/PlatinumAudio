@@ -198,7 +198,7 @@ section ul, p {
 }
 
 #rates h3:hover, #rates a:hover, #aboutend h3:hover, #aboutend a:hover, #services h3:hover, #services a:hover, 
-.blue-link:hover, #contact a:hover, #see-more:hover {
+.blue-link:hover, #contact a:hover, #see-more:hover, section a:hover {
     color: #FF8C00;
     text-decoration-color: #FF8C00;
     transition: color 0.3s;
