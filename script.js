@@ -1,9 +1,17 @@
-// Example function to handle language switching
-/*
-document.querySelector('#english').addEventListener('click', () => {
-    alert("Switched to English");
+// FULL SCREEN VIEW SCRIPT
+const images = document.querySelectorAll('.sampleProjectImage');
+const overlay = document.getElementById('imageOverlay');
+const overlayImg = document.getElementById('overlayImage');
+
+// Open image
+images.forEach(img => {
+  img.addEventListener('click', () => {
+    overlay.style.display = 'flex';
+    overlayImg.src = img.src;
+  });
 });
-document.querySelector('#french').addEventListener('click', () => {
-    alert("Switched to French");
+
+// Close on click anywhere
+overlay.addEventListener('click', () => {
+  overlay.style.display = 'none';
 });
-*/
