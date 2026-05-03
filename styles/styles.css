@@ -99,6 +99,7 @@ nav {
     background-color: rgba(0, 0, 0, 0.75);
     padding: 10px 15px;
     color: #6df100;
+    transition: color 0.3s;
 }
 
 /* Dropdown menu styling */
@@ -190,17 +191,16 @@ section ul, p {
     font-weight: bold;
 }
 
-section a {
-    text-decoration-color: #6df100;
-}
-
-#rates h3, #rates a, #aboutend h3, #aboutend a, #services h3, #services a, .blue-link {
+#rates h3, #rates a, #aboutend h3, #aboutend a, #services h3, #services a, .blue-link, #contact a, #see-more {
     color: blue;
     text-decoration-color: blue;
 }
 
-#contact a {
-    text-decoration-color: blue;
+#rates h3:hover, #rates a:hover, #aboutend h3:hover, #aboutend a:hover, #services h3:hover, #services a:hover, 
+.blue-link:hover, #contact a:hover, #see-more:hover {
+    color: #FF8C00;
+    text-decoration-color: #FF8C00;
+    transition: color 0.3s;
 }
 
 #home p {
@@ -224,20 +224,16 @@ section a {
 }
 
 #why ol {
-    padding-left: 20px;
-    /* Give space on the left for the numbers */
-    margin: 0 auto;
-    /* Center the list in the container */
+    padding-left: 20px; /* Give space on the left for the numbers */
+    margin: 0 auto; /* Center the list in the container */
 }
 
 #why li {
-    margin-bottom: 15px;
-    /* Adds space between each list item */
+    margin-bottom: 15px; /* Adds space between each list item */
 }
 
 #why ol li strong {
-    font-size: 1.1em;
-    /* Makes the strong text slightly larger */
+    font-size: 1.1em; /* Makes the strong text slightly larger */
 }
 
 .social-links {
