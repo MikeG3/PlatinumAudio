@@ -161,6 +161,13 @@
         max-height: 126px;
     }
 
+    #vertical-image {
+        transform: rotate(90deg);
+        max-width: 126px;
+        max-height: 250px;
+}
+
+
 }
 
 @media (max-width: 400px) {

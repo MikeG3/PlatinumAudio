@@ -337,3 +337,9 @@ footer p {
     height: 450px;
 }
 
+#vertical-image {
+    transform: rotate(90deg);
+    width: 450px;
+    height: 840px;
+}
+
