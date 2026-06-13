@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mikeg3.github.io/PlatinumAudio/sitemap.xml
